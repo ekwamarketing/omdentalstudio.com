@@ -3,6 +3,80 @@
    Porcelain Veneers Landing Page
    ======================================== */
 
+/* --- Fonts --- */
+
+/* Brandon */
+@font-face {
+  font-family: 'Brandon Text';
+  src: url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/brandon/BrandonText-Bold.woff2') format('woff2'),
+       url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/brandon/BrandonText-Bold.woff') format('woff'),
+       url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/brandon/BrandonText-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Brandon Text';
+  src: url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/brandon/BrandonText-Regular.woff2') format('woff2'),
+       url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/brandon/BrandonText-Regular.woff') format('woff'),
+       url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/brandon/BrandonText-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Brandon Text';
+  src: url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/brandon/BrandonText-Medium.woff2') format('woff2'),
+       url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/brandon/BrandonText-Medium.woff') format('woff'),
+       url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/brandon/BrandonText-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Brandon Text';
+  src: url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/brandon/BrandonText-Black.woff2') format('woff2'),
+       url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/brandon/BrandonText-Black.woff') format('woff'),
+       url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/brandon/BrandonText-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Juana */
+@font-face {
+  font-family: 'Juana';
+  src: url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/juana/Juana-Regular.woff2') format('woff2'),
+       url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/juana/Juana-Regular.woff') format('woff'),
+       url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/juana/Juana-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* RollingPen */
+@font-face {
+  font-family: 'RollingPen';
+  src: url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/rolling-pen/rollingpen-webfont.woff2') format('woff2'),
+       url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/rolling-pen/rollingpen-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Alta */
+@font-face {
+  font-family: 'Alta';
+  src: url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/alta/alta_regular-webfont.woff2') format('woff2'),
+       url('https://www.omdentalstudio.com/wp-content/themes/ekwa/fonts/alta/alta_regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* --- Reset & Base --- */
 *,
 *::before,
@@ -21,8 +95,8 @@
   --color-text: #33322e;
   --color-text-light: #6b6760;
   --color-border: #e5ddd5;
-  --font-heading: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
-  --font-body: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+  --font-heading: 'Juana', Georgia, 'Times New Roman', serif;
+  --font-body: 'Brandon Text', 'Helvetica Neue', Arial, sans-serif;
   --container-max: 1460px;
   --section-padding: 100px 0;
   --transition: 0.3s ease;

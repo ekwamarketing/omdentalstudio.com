@@ -338,7 +338,8 @@ h3 {
 
 .hero-content {
   max-width: 720px;
-  text-align: left;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .hero-eyebrow {
@@ -366,6 +367,7 @@ h3 {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+  justify-content: center;
   margin-bottom: 48px;
 }
 
@@ -385,6 +387,7 @@ h3 {
   display: flex;
   gap: 28px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .trust-item {

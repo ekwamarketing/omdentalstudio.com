@@ -314,18 +314,28 @@ h3 {
   justify-content: center;
 }
 
-.proof-logo {
+.proof-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.proof-badge-icon {
+  flex-shrink: 0;
+}
+
+.proof-badge-text {
   color: var(--color-white);
   font-family: var(--font-heading);
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   font-weight: 500;
   font-style: italic;
-  opacity: 0.85;
+  opacity: 0.9;
 }
 
 .proof-divider {
   width: 1px;
-  height: 20px;
+  height: 28px;
   background-color: rgba(255, 255, 255, 0.2);
 }
 
@@ -509,6 +519,20 @@ h3 {
   color: var(--color-text-light);
   font-size: 0.92rem;
   line-height: 1.7;
+}
+
+/* --- Real Results Section --- */
+.real-results {
+  padding: var(--section-padding);
+  background-color: var(--color-white);
+}
+
+.real-results .section-title {
+  margin-bottom: 48px;
+}
+
+.instagram-feed {
+  max-width: 100%;
 }
 
 /* --- CTA Banner --- */
@@ -761,12 +785,13 @@ h3 {
   }
 
   .hero-cta {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .hero-cta .btn {
-    width: 100%;
     text-align: center;
+    padding: 14px 20px;
+    font-size: 0.7rem;
   }
 
   .hero-trust {
@@ -792,11 +817,12 @@ h3 {
   }
 
   .final-cta-buttons {
-    flex-direction: column;
+    flex-direction: row;
   }
 
   .final-cta-buttons .btn {
-    width: 100%;
+    padding: 16px 24px;
+    font-size: 0.75rem;
   }
 
   .social-proof-logos {
@@ -807,8 +833,13 @@ h3 {
     display: none;
   }
 
-  .proof-logo {
+  .proof-badge-text {
     font-size: 0.9rem;
+  }
+
+  .proof-badge-icon {
+    width: 16px;
+    height: 16px;
   }
 }
 
